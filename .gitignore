@@ -1,0 +1,8 @@
+*.pyc
+*.hdf5
+.vscode
+.ipynb_checkpoints/*
+results/*
+deform/*
+model/*
+logs/*
