@@ -11,7 +11,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"    # GPU
 #from nets.Unet import Unet as Net
 
 # Unet2
-#from nets.Unet_kaggle import Unet_Kaggle as Net
+from nets.Unet_kaggle import Unet_Kaggle as Net
 
 # Unet3
 #from nets.Unet_bn import Unet_BN as Net
@@ -23,7 +23,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"    # GPU
 #from nets.Linknet_s import Linknet_s as Net
 
 # Tiramisu
-from nets.Tiramisu import Tiramisu as Net
+#from nets.Tiramisu import Tiramisu as Net
 
 # get the parameters
 parser=argparse.ArgumentParser(description='for image semantic segmentation')

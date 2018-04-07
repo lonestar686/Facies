@@ -7,7 +7,7 @@ class DataProcess:
 
     """
     @staticmethod
-    def preprocess(imgs, new_h=None, new_w=None, flag_simple=False, flag_mask=False):
+    def preprocess(imgs, new_h=None, new_w=None, flag_simple=True, flag_mask=False):
         """ preprocess the data, a combination 
         """
         print(' preprocess data:')
